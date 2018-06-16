@@ -4,15 +4,11 @@
 	<body>
 		<ul>
 			<li><img src="{{ url_for('static', filename='1.jpg') }}"></li>
-
-			{# This is comment block.We will set some variables in the jinja template. #}
-			{% set name = "Zin Mar Lwin" %}
-			{% set user_name = "Zinmarlwin711" %}
 			
-			<li>{{ name }}</li>
-			<li><a href="http://github.com/{{user_name}}">GitHub</a></li>
+			<li>Zin Mar Lwin</li>
+			<li><a href="http://github.com/Zinmarlwin711">GitHub</a></li>
 
-			<li><a href="http://{{user_name}}.herokuapp.com">Heroku</li>
+			<li><a href="http://zinmarlwin711.herokuapp.com">Heroku</li>
 		</ul>
 	</body>
 </html>
